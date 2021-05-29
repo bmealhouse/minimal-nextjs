@@ -1,4 +1,10 @@
 {
   "extends": ["config:base"],
-  "automerge": true
+  "automerge": true,
+  "packageRules": [
+    {
+      "matchPackageNames": ["jest", "ts-jest"],
+      "groupName": "jest packages"
+    }
+  ]
 }
