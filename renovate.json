@@ -3,8 +3,13 @@
   "automerge": true,
   "packageRules": [
     {
-      "matchPackageNames": ["jest", "ts-jest"],
-      "groupName": "jest packages"
+      "matchPackageNames": [
+        "@testing-library/jest-dom",
+        "@testing-library/react",
+        "jest",
+        "ts-jest"
+      ],
+      "groupName": "testing packages"
     }
   ]
 }
